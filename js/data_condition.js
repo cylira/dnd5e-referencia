@@ -1,78 +1,77 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Cegado (Blinded)",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "No puedes ver",
+        description: "No puedes ver",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Una criatura cegada no puede ver y falla automáticamente todas las pruebas de característica que requieran vista.",
+			"Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja."
         ]
     },
     {
-        title: "Charmed",
+        title: "Hechizado (Charmed)",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "Estás hechizado",
+        description: "Estás hechizado por otra criatura",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Una criatura hechizada no puede atacar ni elegir como objetivo de efectos dañinos o mágicos a quien la hechizó.",
+			"Quien hechizó a la criatura tiene ventaja en las pruebas de característica para interactuar socialmente con ella."
         ]
     },
     {
-        title: "Deafened",
+        title: "Ensordecido (Deafened)",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "No puedes oír",
+        description: "No puedes oír",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Una criatura ensordecida no puede oír y falla automáticamente todas las pruebas de característica que requieran el oído."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Cansancio (Exhaustion)",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "Estás cansado",
+        description: "El cansansio se mide en seis niveles",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
+            "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
+            "Finalizar un descanso largo reduce el nivel de cansancio en 1, siempre y cuando hayas comido y bebido algo durante el mismo.",
+            "También, ser resucitado de entre los muertos reduce el nivel de cansancio por 1."
         ]
     },
     {
-        title: "Frightened",
+        title: "Asustado (Frightened)",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Estás asustado",
+        description: "Estás asustado",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Una criatura asustada tiene desventaja en las pruebas de característica y tiradas de ataque mientras pueda ver a la fuente de su miedo.",
+            "La criatura no puede acercarse a la fuente de su miedo voluntariamente."
         ]
     },
     {
-        title: "Grappled",
+        title: "Agarrado (Grappled)",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Te han agarrado",
+        description: "Estás agarrado",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "La velocidad de una criatura agarrada es 0 y no puede aumentar por encima de ese valor.",
+            "Este estado termina si quien agarra queda incapacitado (consulta Incapacitado).",
+            "Este estado también termina si algún efecto aleja a la criatura de quien (o lo que) la tiene agarrada, como cuando el conjuro ola atronadora hace salir despedida a una criatura."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Incapacitado (Incapacited)",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "No tienes acciones ni reacciones",
+        description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
@@ -80,121 +79,119 @@ data_condition = [
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "No te pueden ver",
+        description: "No pueden verte sin la ayuda de magia o sentidos especiales.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Es imposible ver a una criatura invisible sin la ayuda de magia o sentidos especiales.",
+			"En lo que a esconderse respecta, se considera que la criatura se encuentra en una zona muy oscura, aunque se puede determinar su ubicación si esta hace algún ruido o deja huellas.",
+            "Las tiradas de ataque contra la criatura tienen desventaja y las tiradas de ataque hechas por la criatura tienen ventaja."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Paralizado (Paralyzed)",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Estás paralizado",
+        description: "No puedes hacer nada",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
+            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+            "Las tiradas de ataque contra la criatura tienen ventaja.",
+            "Todos los ataques que impacten a la criatura son críticos si el atacante está a 5 pies o menos de ella."
         ]
     },
     {
-        title: "Petrified",
+        title: "Petrificado (Petrified)",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Te has transfomado en piedra",
+        description: "Te transformas, junto con todos los objetos no mágicos que llevas encima o tengas puestos, en una sustancia sólida e inanimada (normalmente piedra).",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
+            "Tu peso se multiplica por diez y dejas de envejecer.",
+            "Estás incapacitado, no puedes moverse ni hablar y no eres consciente de tu entorno.",
             "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.",
+            "Tienes resistencia contra todo el daño.",
+            "Eres inmune al veneno y la enfermedad. Sin embargo, cualquier enfermedad o veneno que ya estuviera presente en tu cuerpo queda suspendido, pero no neutralizado."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Envenenado (Poisoned)",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "Estás envenenado",
+        description: "Estás envenenado",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Tienes desventaja en las tiradas de ataque y pruebas de característica."
         ]
     },
     {
-        title: "Prone",
+        title: "Derribado (Prone)",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "Estás derribado",
+        description: "Estás derribado",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Tu única opción de movimineto es arrastarte, a menos que te levantes.",
+            "Tienes desventaja en las tiradas de ataque.",
+            "Las tiradas de ataque contra ti tienen ventaja si el atacante está a 5 pies de ti, de lo contrario el ataque tiene desventaja."
         ]
     },
     {
-        title: "Restrained",
+        title: "Apresado (Restrained)",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "Estás apresado",
+        description: "Estás apresado",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "La velocidad de una criatura apresada es 0 y no puede aumentar por encima de este valor.",
+            "Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja.",
+            "La criatura tiene desventaja en las tiradas de salvación de Destreza."
         ]
     },
     {
-        title: "Stunned",
+        title: "Aturdido (Stunned)",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "Estás aturdido",
+        description: "Estás aturdido",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Una criatura aturdida está incapacitada (consulta Incapacitado), no puede moverse y sólo es capaz de hablar con voz entrecortada.",
+            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+            "las tiradas de ataque contra la criatura tienen ventaja."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Inconsciente (Unconscious)",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "Estás inconsciente",
+        description: "Estás inconsciente",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Un criatura inconsciente está incapacitada (consulta Incapacitado), no puede moverse o hablar y no es consciente de su entorno.",
+            "La criatura deja caer cualquier cosa que esté sujetando y cae derribada.",
+            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+            "Las tiradas de ataque contra la criatura tienen ventaja.",
+            "Todos los ataques que impacten a la criatura son críticos si el atacante está a 5 pies o menos de ella",
         ]
     },
     {
-        title: "Dying",
+        title: "Muriendo (Dying)",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "Estás muriendo",
+        description: "Has alcanzado los 0 puntos de golpe y estás muriendo",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Si el daño que no te mata te reduce a 0 puntos de golpe, caes inconsciente y comienzas a morir.",
+			"Si recibes sanación, inmediatamente recuperas la consciencia y dejas de morir.",
+			"Cuando estás muriendo, al inicio de cada uno de tus turnos realizas una tirada de salvación contra muerte. Tira un d20 sin sumar ningún modificador.",
+			"Si sacas 10 o más es un éxito, 9 o menos es un fallo.",
+			"En tu tercer éxito te estabilizas.",
+			"En tu tercer fallo mueres.",
+			"Sacar 1 en la tirada cuenta como 2 fallos.",
+			"Sacar 20 en la tirada inmediatamente te recupera 1 punto de golpe.",
+			"Pueden estabilizarte utilizando la acción de Estabilizar y superando una prueba de Sabiduría (Medicina) CD 10.",
+			"Una vez estable recuperas 1 punto de golpe después de 1d4 horas."
         ]
     }
 ]

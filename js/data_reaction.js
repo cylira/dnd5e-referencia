@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Ataque de oportunidad",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "El enemigo sale de tu alcance",
+        description: "Rara vez puedes moverte despreocupadamente junto a tus enemigos sin ponerte en peligro",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Circunstancia de activación: la criatura enemiga que puedas ver sale de tu alcance.",
+            "Realiza un ataque cuerpo a cuerpo contra la criatura provocadora.",
+            "El ataque interrumpe el movimiento de la criatura provocadora, ocurriendo justo antes de que la criatura deje tu alcance.",
+            "Las criaturas no provocan ataques de oportunidad cuando se teletransportan o cuando alguien o algo las mueve sin usar su movimiento, acción o reacción."
         ]
     },
     {
-        title: "Readied action",
+        title: "Acción preparada (Readied action)",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Parte de Preparar una acción",
+        description: "Ejecuta la reacción especificada por Preparar una acción",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Circunstancia de activación: especificada por tu acción de <i>Preparar una acción</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lanzar un conjuto",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Tiempo de lanzamiento de 1 reacción",
+        description: "Lanza un conjuto cuyo tiempo de lanzamiento sea de 1 reacción",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Circunstancia de activación: Especificada por el conjuro.",
+            "Para más detalles, ve la acción de <i>Lanzar un conjuro</i>."
         ]
     }
 ]

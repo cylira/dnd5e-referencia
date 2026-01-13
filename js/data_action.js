@@ -1,199 +1,199 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Atacar",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Ataque cuerpo a cuerpo o a distacia",
+        description: "Realiza con tu arma un ataque cuerpo a cuerpo o a distancia",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Ciertos rasgos, como el rasgo <i> Ataque Adicional </i> del guerrero, te permiten realizar más de un ataque con esta acción. Cada uno de estos ataques es una tirada a parte y puede ser a diferentes criaturas. Puedes moverte entre estos ataques.",
+            "Cuando atacas con un arma cuerpo a cuerpo ligera, puedes usar una acción adicional para atacar con la otra mano (ver la acción adicional <i>Ataque con dos armas</i>).",
+            "Puedes reemplazar uno de tus ataques cuerpo a cuerpo con un <i> Agarrar </i> o un <i> Empujar </i>.",
+            "Algunas condiciones dan ventaja en el ataque: ataques contra objetivos cegados, paralizados, petrificados, apresados, aturdidos o inconscientes; ataques cuerpo a cuerpo contra objetivos derribados; ataques de atacantes invisibles u ocultos.",
+            "Algunas condiciones ponen en desventaja el ataque: ataques contra objetivos invisibles u ocultos; ataques a distancia contra objetivos derribados; ataques de atacantes cegados, asustados, envenenados o apresados."
         ]
     },
     {
-        title: "Grapple",
+        title: "Agarrar (Grapple)",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Ataque especial cuerpo a cuerpo",
+        description: "Intentas agarrar a una criatura o luchar con ella",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Puedes usar la acción <i> Atacar </i> para realizar un ataque cuerpo a cuerpo especial, un agarre. Si eres capaz de realizar múltiples ataques con la acción <i>Atacar</i>, este ataque reemplaza a uno de ellos.",
+            "El objetivo de tu agarre debe estar dentro de tu alcance y tener un tamaño que esté, como mucho, una categoría por encima de la tuya.",
+            "Utilizando al menos una mano libre, intentas sujetar al objetivo mediante una prueba de agarrar en lugar de una tirada de ataque: haz una prueba de Fuerza (Atletismo) enfrentada a una prueba de Fuerza (Atletismo) o Destreza (Acrobacia) del objetivo, según elija este último.",
+            "Si tienes éxito, sometes al objetivo al estado Agarrado."
         ]
     },
     {
-        title: "Shove",
+        title: "Empujar (Shove)",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Ataque especial cuerpo a cuerpo",
+        description: "Empuja a una criatura, ya sea para derribarla o para alejarla de ti",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "Utilizando la acción de <i>Atacar</i>, puedes realizar un ataque cuerpo a cuerpo especial para empujar a un criatura. Si eres capaz de realizar múltiples ataques con la acción Atacar, este ataque reemplaza a uno de ellos.",
+            "El objetivo de tu empuje no debe ser más de un tamaño más grande que tú, y debe estar a tu alcance.",
+            "Realiza una prueba de Fuerza (Atletismo) enfrentada por la Fuerza (Atletismo) o Destreza (Acrobacia) del objetivo (el objetivo elige la habilidad a usar).",
+            "Si tienes éxito, ya sea que derribles al objetivo o lo empujes 5 pies lejos de ti."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lanzar un conjuro",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Tiempo de lanzamiento de 1 acción",
+        description: "Lanza un conjuro con un tiempo de lanzamiento de 1 acción",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "No puedes lanzar un conjuro con tu acción y un conjuro diferente con tu acción adicional en el mismo turno, excepto si la acción se usa para lanzar un truco.",
+            "El objetivo de un conjuro debe estar dentro del rango del conjuro. Para apuntar a algo, debes tener un camino claro hacia él, de modo que no pueda estar detrás de la cobertura total.",
+            "Los conjuros con componentes materiales no consumen el material a menos que se indique explícitamente. A menos que se indique el costo de un material, puedes suponer que el costo es insignificante y que el material simplemente está disponible en una bolsa de componentes.",
+            "Algunos conjuros requieren que mantengas la concentración para mantener su magia activa. Si pierdes la concentración, tal conjuro termina. Pierdes la concentración en un conjuro si lanzas otro conjuro que requiere concentración o cuando estás incapacitado. Cada vez que tomas daño, debes hacer una tirada de salvación de Constitución para mantener tu concentración. La CD es igual a 10 o la mitad del daño que recibes, el que sea mayor.",
         ]
     },
     {
-        title: "Dash",
+        title: "Correr (Dash)",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Velocidad de movimiento doble",
+        description: "Obtienes movimiento adicional para el turno en curso",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "El incremento es igual a tu velocidad, después de aplicarle cualquier modificador."
         ]
     },
     {
-        title: "Disengage",
+        title: "Destrabarse (Disengage)",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Previene ataques de oportunidad",
+        description: "Tu movimiento no provoca ataques de oportunidad durante el resto del turno",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "Esquivar (Dodge)",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "Incrementa la defensa",
+        description: "Te enfocas por completo en evitar ataques",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "Hasta el comienzo de tu siguiente turno, cualquier tirada de ataque hecha contra ti tiene una desventaja si puedes ver al atacante, y haces lanzamientos de salvación de Destreza con ventaja.",
+            "Pierdes este beneficio si estás <i> incapacitado </i> o si tu velocidad cae a 0."
         ]
     },
     {
-        title: "Escape",
+        title: "Escapar de un agarre (Escape)",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        subtitle: "Liberarte de un agarre",
+        description: "Escapas de un agarre",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "Para escapar de un agarre, debes tener éxito en una prueba de Fuerza (Atletismo) o Destreza (Acrobacia) enfrentado por la Fuerza (Atletismo) de quien te sujeta.",
+            "Escapar de otras condiciones que te limitan (como esposas) puede requerir una prueba de Destreza o Fuerza, según lo especifique la condición."
         ]
     },
     {
-        title: "Help",
+        title: "Ayudar (Help)",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Le proporcionas ventaja a un aliado",
+        description: "Propoprcionas a un aliado ventaja en una prueba de habilidad o de ataque",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "El objetivo obtiene ventaja en la siguiente prueba de habilidad para realizar la tarea con la que lo estás ayudando.",
+            "Alternativamente, el objetivo gana ventaja en la siguiente tirada de ataque contra una criatura a menos de 5 pies de ti.",
+            "La ventaja dura hasta el comienzo de tu próximo turno."
         ]
     },
     {
-        title: "Use Object",
+        title: "Usar un objeto",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Interactuar con un segundo objeto",
+        description: "Interactuar con un segundo objeto o usar habilidades de objetos especiales",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "Puedes interactuar con un objeto de forma gratuita durante tu turno (como sacar un arma o abrir una puerta). Si deseas interactuar con un segundo objeto, usa esta acción.",
+            "Cuando un objeto requiere tu acción para su uso, también realizas esta acción"
         ]
     },
     {
-        title: "Use shield",
+        title: "Usar un escudo",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "Equipar o desequipar un escudo",
+        description: "Equipar o desequipar un escudo",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "Un escudo siempre toma una acción para equipar o desequipar",
+            "La armadura tarda varios minutos en equiparse o desequiparse."
         ]
     },
     {
-        title: "Hide",
+        title: "Esconderse",
         icon: "hood",
         subtitle: "",
-        description: "Attempt to hide",
+        description: "Intentar ocultarse",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "No puedes esconderte de una criatura que puede verte. Debes tener una cobertura total, estar en un área muy obscura, ser invisible o bloquear la visión del enemigo.",
+            "Si haces ruido (como gritar una advertencia o derribar un jarrón), te descubrirás.",
+            "Cuando intentes esconderte, haz una prueba de Destreza (Sigilo) y anota el resultado. Hasta que te descubran o dejes de esconderte, el total de esa tirada será enfrentado por una prueba de Sabiduría (Percepción) de cualquier criatura que busque activamente las señales de tu presencia.",
+            "Una criatura te advierte incluso si no está buscando, a menos que tu pruebda de Sigilo sea más alta que su Percepción Pasiva.",
+            "Fuera de combate, también puedes realizar una prueba de Destreza (Sigilo) para ocultarte de los enemigos, escabullirte de los guardias, escabullirte sin ser notado, o acechar a alguien sin ser visto o escuchado."
         ]
     },
     {
-        title: "Search",
+        title: "Buscar",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
+        description: "Dedicas tu atención a encontrar algo",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "Dependiendo de la naturaleza de tu búsqueda, el DM puede pedirte que realices una prueba de Sabiduría (Percepción) o una prueba de Inteligencia (Investigación)."
         ]
     },
     {
-        title: "Ready",
+        title: "Preparar una acción (Ready)",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "Elige una circunstancia y una acción",
+        description: "Elige una circunstancia y una acción de respuesta",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Primero, decide qué circunstancia (que puedas percibir) activará tu reacción.",
+            "Luego, elige la acción que realizarás en respuesta a dicha activación. Como alternativa, en vez de una acción puedes decidir moverte hasta tu velocidad.",
+            "Cuando ocurra la circunstancia de activación, podrás elegir entre usar tu reacción al terminar esta o ignorarla.",
+            "Cuando te preparas para lanzar un conjuro, lo lanzas con normalidad pero retienes su energía, que liberarás usando tu reacción cuando se produzca la circunstancia activadora. Sólo los conjuros cuyo tiempo de lanzamiento sea de 1 acción pueden formar parte de una acción preparada. Además, el esfuerzo que implica contener las energías mágicas hasta el momento de liberarlas exige concentración."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usar un rasgo de clase",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "Algunos rasgos utilizan acciones",
+        description: "Utiliza un rasgo racial o de clase que use una acción",
+        reference: "Revisa la página de tu clase para más información.",
         bullets: [
 
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "Estabilizar a una criatura",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        subtitle: "Primeros auxilios a criatura moribunda",
+        description: "Evita que una criatura moribunda tenga que realizar tiradas de salvacion contra muerte",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Realiza un prueba de Sabiduría (Medicina) CD 10.",
+            "Con éxito, la criatura está estable y ya no necesita realizar tiradas de salvación contra muerte.",
+            "Una criatura estable recupera 1 punto de vida después de 1d4 horas."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvisar",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "Cualquier acción no en esta lista",
+        description: "Realiza cualquier acción que puedas imaginar",
         reference: "PHB, pg. 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Cuando describes una acción no detallada en las reglas, el DM te dirá si la acción es posible y que prueba requieres hacer, si la hay, para determinar el éxito o el fallo."
         ]
     }
 ]
