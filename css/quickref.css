@@ -132,7 +132,6 @@
 #section-movement .text {
     color: maroon;
 }
-
 #section-action, #section-action .item-icon {
     background-color: black;
     border-color: black;
@@ -140,7 +139,6 @@
 #section-action .text {
     color: black;
 }
-
 #section-bonus-action, #section-bonus-action .item-icon {
     background-color: indigo;
     border-color: indigo;
@@ -148,7 +146,6 @@
 #section-bonus-action .text {
     color: indigo;
 }
-
 #section-reaction, #section-reaction .item-icon {
     background-color: DarkOliveGreen ;
     border-color: DarkOliveGreen ;
@@ -156,7 +153,13 @@
 #section-reaction .text {
     color: DarkOliveGreen ;
 }
-
+#section-optional, #section-optional .item-icon {
+    background-color: DarkOrange;
+    border-color: DarkOrange;
+}
+#section-optional .text {
+    color: DarkOrange;
+}
 #section-condition, #section-condition .item-icon {
     background-color: FireBrick;
     border-color: FireBrick;
@@ -164,13 +167,19 @@
 #section-condition .text {
     color: FireBrick;
 }
-
 #section-environment, #section-environment .item-icon {
     background-color: ForestGreen;
     border-color: ForestGreen;
 }
 #section-environment .text {
     color: ForestGreen;
+}
+#section-rest, #section-rest .item-icon {
+    background-color: gray;
+    border-color: gray;
+}
+#section-rest.text {
+    color: gray;
 }
 
 
@@ -326,4 +335,3 @@ p:first-child {
     .itemsize { height: 36px; width:  33%; }
     .modalsize {}
 }
-
