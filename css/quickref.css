@@ -118,6 +118,13 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
+#section-header, #section-header .item-icon {
+    background-color: Black;
+    border-color: Black;
+}
+#section-header .text {
+    color: Black;
+}
 #section-movement, #section-movement .item-icon {
     background-color: maroon;
     border-color: maroon;
